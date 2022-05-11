@@ -1,4 +1,16 @@
-
+/*
+Кофигурация базы данных:
+  Product
+    ID (int, key)
+    Name (text)
+  Category
+    ID (int, key)
+    Name (text)
+  Product-Category
+    ID (int, key)
+    ID_Product (int)
+    ID_Category (int)
+*/
 
 SELECT Product.Name, Category.Name
 FROM Product
